@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "d:\\Travail\\MASTERE YNOV\\COURS\\Archi_Logicielle\\VS_CODE\\PROJET_FINAL\\LIB\\JRelate.jar"
+    ]
+}
