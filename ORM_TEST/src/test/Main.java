@@ -87,9 +87,9 @@ public class Main {
 		List<Object> lstUsersDecoDESC = new ArrayList<Object>();
 		List<Object> lstUsersASC = new ArrayList<Object>();
 		List<Object> lstUsersDecoASC = new ArrayList<Object>();
-		lstUsers = jr.SelectObjectOrdered(user1, "firstname", 0, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
+		lstUsersDESC = jr.SelectObjectOrdered(user1, "firstname", 0, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
 		lstUsersASC = jr.SelectObjectOrdered(user1, "firstname", 1, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
-		lstUsersDeco = jr.SelectObjectOrdered(UserDeco1, "prenom", 0, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
+		lstUsersDecoDESC = jr.SelectObjectOrdered(UserDeco1, "prenom", 0, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
 		lstUsersDecoASC = jr.SelectObjectOrdered(UserDeco1, "prenom", 1, "jdbc:mysql://localhost:3306/testdb", "toto", "bob");
 		
 		System.out.println("-----DESC-----");
